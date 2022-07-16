@@ -184,6 +184,7 @@ public class ValidationItemControllerV2 {
         //상품 이름이 있나요?
         if (!StringUtils.hasText(item.getItemName())) {
             bindingResult.rejectValue("itemName", "required");
+//            new String[]{"required.item.itemName", "required"};
         }
 
         if (item.getPrice() == null || item.getPrice() < 1000 || item.getPrice() > 1000000) {
