@@ -7,6 +7,17 @@ Content-Type: application/json
   "quantity" : 10000
 }
 
+###
+
+POST http://localhost:8080/validation/api/items/add
+Content-Type: application/json
+
+{
+  "itemName" : "hello",
+  "price" : "1000",
+  "quantity" : 10000
+}
+
 <> 2022-07-17T171115.200.json
 
 ###
