@@ -1,4 +1,4 @@
-package hello.exception.log;
+package hello.exception.filter;
 
 import lombok.extern.slf4j.Slf4j;
 
