@@ -1,0 +1,9 @@
+###
+GET /rest/caregiver/joinCaregiver
+
+###
+POST http://localhost:80/rest/caregiver/caregiverExcel
+
+###
+GET http://localhost:8080/api/members/bad
+Accept: application/json
