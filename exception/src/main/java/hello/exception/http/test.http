@@ -25,3 +25,7 @@ Accept: application/json
 ###
 GET http://localhost:8080/api/response-status-ex2
 Accept: application/json
+
+###
+GET http://localhost:8080/api/default-handler-ex?data=qqq
+Accept: application/json
